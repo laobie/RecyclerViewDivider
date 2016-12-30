@@ -227,7 +227,7 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set divider drawable
          *
-         * @param drawableRes Divider drawable
+         * @param drawable Divider drawable
          */
         public Builder setDrawable(Drawable drawable) {
             mDrawable = drawable;
@@ -327,7 +327,7 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set divider margin top
          *
-         * @param marginRight margin top value
+         * @param marginTop margin top value
          */
         public Builder setMarginTop(int marginTop) {
             return setMarginTop(TypedValue.COMPLEX_UNIT_DIP, marginTop);
@@ -336,8 +336,8 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set divider margin right
          *
-         * @param unit        margin right value unit
-         * @param marginRight margin right value
+         * @param unit      margin right value unit
+         * @param marginTop margin top value
          */
         public Builder setMarginTop(int unit, int marginTop) {
             mMarginTop = getSizeValue(unit, marginTop);
@@ -347,7 +347,7 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set divider margin bottom
          *
-         * @param marginRight margin bottom value
+         * @param marginBottom margin bottom value
          */
         public Builder setMarginBottom(float marginBottom) {
             return setMarginBottom(TypedValue.COMPLEX_UNIT_DIP, marginBottom);
@@ -356,8 +356,8 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set divider margin bottom
          *
-         * @param unit        margin bottom value unit
-         * @param marginRight margin bottom value
+         * @param unit         margin bottom value unit
+         * @param marginBottom margin bottom value
          */
         public Builder setMarginBottom(int unit, float marginBottom) {
             mMarginBottom = getSizeValue(unit, marginBottom);
@@ -397,7 +397,7 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
         /**
          * Set skip count before end
          *
-         * @param startSkipCount count before end
+         * @param endSkipCount count before end
          */
         public Builder setEndSkipCount(int endSkipCount) {
             mEndSkipCount = endSkipCount;
