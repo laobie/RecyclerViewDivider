@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             .setStyle(RecyclerViewDivider.Style.BETWEEN)
             .setColorRes(R.color.divider_gray)
             .setSize(1.5f)
+            .setStartSkipCount(2)
             .setMarginLeft(72)
             .setMarginRight(8)
             .build();
