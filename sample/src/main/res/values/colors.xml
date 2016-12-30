@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e98c9</color>
+    <color name="colorPrimaryDark">#216787</color>
+    <color name="colorAccent">#31a0e6</color>
+    <color name="divider_gray">#aeaeae</color>
+    <color name="pink">#ff939a</color>
+</resources>
