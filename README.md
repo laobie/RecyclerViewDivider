@@ -44,7 +44,7 @@ Setting divider for RecyclerView.
 
    ![](img/set_drawable.png)
 
-4. Set skip cout 
+4. Set skip count 
 
    ```java
    RecyclerViewDivider divider = new RecyclerViewDivider.Builder(this)
