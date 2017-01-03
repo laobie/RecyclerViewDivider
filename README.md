@@ -4,6 +4,27 @@ Setting divider for RecyclerView.
 
 ![](img/logo.png)
 
+### Usage
+
+1. Add the dependencies to your build.gradle file, RecyclerViewDivider is avaiable in JCenter:
+
+   ```groovy
+   compile 'com.jaeger.recyclerviewdivider:library:1.0.0'
+
+   ```
+
+2. Use `RecyclerViewDivider.Builder`
+
+   ```java
+   RecyclerViewDivider divider = new RecyclerViewDivider.Builder(this)
+       .setStyle(RecyclerViewDivider.Style.BETWEEN)
+       .setDrawableRes(R.drawable.divider)
+       .setMarginLeft(72)
+       .setMarginRight(8)
+       .build();
+   mRvList.addItemDecoration(divider);
+   ```
+
 ### Feature
 
 1. Style
