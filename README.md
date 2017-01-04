@@ -9,7 +9,7 @@ Setting divider for RecyclerView.
 1. Add the dependencies to your build.gradle file, RecyclerViewDivider is avaiable in JCenter:
 
    ```groovy
-   compile 'com.jaeger.recyclerviewdivider:library:1.0.0'
+   compile 'com.jaeger.recyclerviewdivider:library:1.0.1'
 
    ```
 

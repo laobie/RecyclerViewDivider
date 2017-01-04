@@ -1,4 +1,4 @@
-package com.jaeger.library;
+package com.jaeger.recyclerviewdivider;
 
 import org.junit.Test;
 
